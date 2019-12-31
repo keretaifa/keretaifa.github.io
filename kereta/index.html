@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Tiket.com</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li><a href="jadwal_kereta.html">jadwal kereta</a></li>
+      <li><a href="Harga_tiket.html">Harga tiket</a></li>
+      <li><a href="Register.html">Register</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#login">login</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="login" class="container tab-pane active"><br>
+      <h3>login</h3>
+      <form class="form-inline" action="/action_page.php">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember 
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+    </div>
+    <div id="daftar" class="container tab-pane fade"><br>
+      <h3>daftar</h3>
+      <div class="col-md-3">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Nama:</label>
+      <input type="email" class="form-control" id="email" placeholder="masukkan nama" name="email">
+    </div>
+    <div class="form-group">
+      <label for="email">ktp:</label>
+      <input type="email" class="form-control" id="email" placeholder="masukkan ktp" name="email">
+    </div>
+    <div class="form-group">
+      <label for="email">no.hp:</label>
+      <input type="email" class="form-control" id="email" placeholder="masukkan no.hp" name="email">
+    </div>
+    <div class="form-group">
+      <label for="email">tujuan:</label>
+      <input type="email" class="form-control" id="email" placeholder="masukkan tujuan" name="email">
+    </div>
+    <div class="form-group">
+      <label for="email">umur:</label>
+      <input type="email" class="form-control" id="email" placeholder="masukkan umur" name="email">
+    </div>
+    
+    <button type="pesan" class="btn btn-primary">pesan</button>
+  </form>
+    </div>
+    <div id="cekPemesanan" class="container tab-pane fade"><br>
+      <h3>cek pemesanan</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
